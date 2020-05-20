@@ -13,3 +13,18 @@ RNNs were inspired modeled loosly on how the human brain works.
 
 Practically RNNs show good performance in time-series datas.
 
+## _Reflection_
+
+Let us look back into some of the things that we already know before we dive into RNNs
+
+### Neural Networks 
+
+Neural Networks are basically non-linear function aproximators.
+
+In building a supervised neural network we basically have two steps.
+* Training 
+* Evalutaion
+
+In training phase we are given the training set of data and our algoritiam basically itertates to find the best set of weights which would give our desired output. Which meas if we have the same input and same weights traditionally we should get the same output becuase the output function here only depends on input and weights. 
+
+In the Evaluation phase we would have a test dataset and these datasets are given as input to the neural network and we expect to get the output for the same. 
