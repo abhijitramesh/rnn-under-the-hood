@@ -28,3 +28,16 @@ In building a supervised neural network we basically have two steps.
 In training phase we are given the training set of data and our algoritiam basically itertates to find the best set of weights which would give our desired output. Which meas if we have the same input and same weights traditionally we should get the same output becuase the output function here only depends on input and weights. 
 
 In the Evaluation phase we would have a test dataset and these datasets are given as input to the neural network and we expect to get the output for the same. 
+
+During the training of a network we primarly focus on feedfoward and backpropogation.
+
+#### feedfoward
+
+This is basically inputing the data to the network so that it can make a prediction
+
+once the network has made a prediction we can figure out the error by taking the predicted output and since we are doing supervised learning take the actual output and predcit what amount of error is involved and then we need to do backpropogation.
+
+#### backpropogation
+
+In this step we will go back a step from feedfoward and use the calculated output to adjust the weights so that in the next iteration we get a prediciton what we require.
+
