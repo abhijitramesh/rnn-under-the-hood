@@ -44,3 +44,17 @@ In this step we will go back a step from feedfoward and use the calculated outpu
 ## RNNs
 
 The principle behnind RNNs are very similar to those of FeedFowardNetwork but there are two main key differences
+
+For an RNN in the training phase it uses
+
+* Sequences as training inputs
+* Memory elements are involved
+
+
+
+![The-standard-RNN-and-unfolded-RNN](https://user-images.githubusercontent.com/43090559/82646483-4baabd00-9c32-11ea-86d3-167e0951044b.png)
+
+![mlp-diagram](https://user-images.githubusercontent.com/43090559/82646531-5ebd8d00-9c32-11ea-98ed-d45b67c29c48.jpg)
+
+#### Memory
+Memory is the output of the hidden node which would act as additional inputs to the network during the next training phase.
