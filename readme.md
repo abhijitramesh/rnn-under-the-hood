@@ -71,3 +71,24 @@ If you look at the diagram above an RNN can be represented as Folded and Unfolde
 
 In the folded part there is an input X from which a function U is mapped to hidden layer h from which the state. Basicaly this gives us an outline of the network but as we know for RNNs have temporal dependencies so we need to take into account factor for time so in order to visualise this we have the unfolded network which is seen on the right of the network. here we can understand that the at h(t) the the we can see that it depends on the output of h(t-1) as well as its weights.
 
+Similar to Neural Networks RNNs can also be stacked up one by one on top of each other to make a more deeper network.
+
+### Genereal Explanation
+
+Lets us see how we can use a rnn in real world, as I have said earlier RNNs are very good at predicting pattens so we mostly train rnns to do the same. Let us say we need to train a rnn to dectect the word bravo. (This is just an example)
+
+First we need to do one-hot encoding for this which basically means-
+
+b 00001
+
+r 00010
+
+a 00100
+
+v 01000
+
+o 10000
+
+And we would create a neural netowrk which would be feed random words over time and whenever this seriese is encountered it would output a value close to 1.
+
+But now the question arises on how do we actually train this network for that we need to follow backpopogation.
