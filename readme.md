@@ -54,7 +54,20 @@ For an RNN in the training phase it uses
 
 ![The-standard-RNN-and-unfolded-RNN](https://user-images.githubusercontent.com/43090559/82646483-4baabd00-9c32-11ea-86d3-167e0951044b.png)
 
+#### _RNN_ diagram
 ![mlp-diagram](https://user-images.githubusercontent.com/43090559/82646531-5ebd8d00-9c32-11ea-98ed-d45b67c29c48.jpg)
 
+#### _feed foward network_ diagram
 #### Memory
 Memory is the output of the hidden node which would act as additional inputs to the network during the next training phase.
+
+In a feedfoward network the output y depends only on the input and weights but this is not the case when it comes to RNNs here the output not only depends on the weights and input but also on the previous _State_ and _State_ Weights.
+
+##### State
+
+This is a term used when there is memory involved in a neural network.
+
+If you look at the diagram above an RNN can be represented as Folded and Unfolded network
+
+In the folded part there is an input X from which a function U is mapped to hidden layer h from which the state. Basicaly this gives us an outline of the network but as we know for RNNs have temporal dependencies so we need to take into account factor for time so in order to visualise this we have the unfolded network which is seen on the right of the network. here we can understand that the at h(t) the the we can see that it depends on the output of h(t-1) as well as its weights.
+
