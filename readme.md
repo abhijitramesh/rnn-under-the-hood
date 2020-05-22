@@ -41,3 +41,6 @@ once the network has made a prediction we can figure out the error by taking the
 
 In this step we will go back a step from feedfoward and use the calculated output to adjust the weights so that in the next iteration we get a prediciton what we require.
 
+## RNNs
+
+The principle behnind RNNs are very similar to those of FeedFowardNetwork but there are two main key differences
