@@ -92,3 +92,16 @@ o 10000
 And we would create a neural netowrk which would be feed random words over time and whenever this seriese is encountered it would output a value close to 1.
 
 But now the question arises on how do we actually train this network for that we need to follow backpopogation.
+
+## Backpropogation through time
+
+Basically, inorder to do backpropogation throught time we need to take into account all previous timesteps.
+
+Let us look at the folded model above in this step we need to consider three weights that has to be updated
+
+1. The input weights
+1. The weights of the state.
+1. The weights connecting one state to the other.
+
+
+[Take a look here to understand the math behind backpropogation throught time.](https://d2l.ai/chapter_recurrent-neural-networks/bptt.html)
