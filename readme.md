@@ -105,3 +105,9 @@ Let us look at the folded model above in this step we need to consider three wei
 
 
 [Take a look here to understand the math behind backpropogation throught time.](https://d2l.ai/chapter_recurrent-neural-networks/bptt.html)
+
+Now that we know about backpropogation we might be thinking can we use this in case we have a very large rnn No we can't similar to normal MLP's here also we will have vanishing gradient problem so what do we do we cannot use the solutions of MLP here, For this we use LSTM cells.
+Long Short Term Memory cells.
+
+Unlike Normal RNNs LSTMs are fully differentiable and hence we easily backpropogate throught it, it also latches on some information and have filters of what information to hold hence avoiding vanishing gradient.
+
