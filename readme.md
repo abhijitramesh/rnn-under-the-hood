@@ -113,3 +113,7 @@ Unlike Normal RNNs LSTMs are fully differentiable and hence we easily backpropog
 
 ## Simple RNN
 Let us see how a simple rnn looks [like](https://github.com/abhijitramesh/rnn-under-the-hood/blob/master/Simple_RNN.ipynb)
+
+## LSTM
+Now that we have understood how to implement a simple RNN let us checkout an implementation of LSTM which is trained on Anna Karenina for character prediction
+[here](https://github.com/abhijitramesh/rnn-under-the-hood/blob/master/LSTM_char_level.ipynb)
