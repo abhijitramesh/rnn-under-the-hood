@@ -111,3 +111,5 @@ Long Short Term Memory cells.
 
 Unlike Normal RNNs LSTMs are fully differentiable and hence we easily backpropogate throught it, it also latches on some information and have filters of what information to hold hence avoiding vanishing gradient.
 
+## Simple RNN
+Let us see how a simple rnn looks [like](https://github.com/abhijitramesh/rnn-under-the-hood/blob/master/Simple_RNN.ipynb)
